@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bài cào 3 lá"
+        android:gravity="center"
+        android:background="#ff9900"
+        android:textColor="#fff"
+        android:textSize="30dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Máy"
+        android:gravity="center"
+        android:background="#2eb82e"
+        android:textColor="#fff"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        >
+
+        <ImageView
+            android:id="@+id/imageview1"
+
+            android:layout_width="120dp"
+            android:layout_height="170dp"
+            app:srcCompat="@drawable/b1fv" />
+        <ImageView
+            android:id="@+id/imageview2"
+
+            android:layout_width="120dp"
+            android:layout_height="170dp"
+            app:srcCompat="@drawable/b1fv" />
+        <ImageView
+            android:id="@+id/imageview3"
+
+            android:layout_width="120dp"
+            android:layout_height="170dp"
+            app:srcCompat="@drawable/b1fv" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tv_diemMay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Điểm "
+        android:gravity="center"
+        android:background="#808000"
+        android:textColor="#fff"
+        />
+    <TextView
+        android:id="@+id/textView_Ketqua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nothing"
+        android:gravity="center"
+        android:background="#0000cc"
+        android:textColor="#fff"
+        android:textSize="40dp"
+        android:layout_marginVertical="30dp"
+        />
+    <TextView
+        android:id="@+id/tv_diemNguoiChoi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Điểm "
+        android:gravity="center"
+        android:background="#808000"
+        android:textColor="#fff"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        >
+
+        <ImageView
+            android:id="@+id/imageview4"
+
+            android:layout_width="120dp"
+            android:layout_height="170dp"
+            app:srcCompat="@drawable/b1fv" />
+        <ImageView
+            android:id="@+id/imageview5"
+
+            android:layout_width="120dp"
+            android:layout_height="170dp"
+            app:srcCompat="@drawable/b1fv" />
+        <ImageView
+            android:id="@+id/imageview6"
+
+            android:layout_width="120dp"
+            android:layout_height="170dp"
+            app:srcCompat="@drawable/b1fv" />
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Người chơi"
+        android:gravity="center"
+        android:background="#2eb82e"
+        android:textColor="#fff"
+        android:textSize="30dp"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chia bài"
+        android:id="@+id/btn_RutLaBai"
+        android:backgroundTint="#ff3300"
+        />
+    <TextView
+        android:id="@+id/tv_lichsu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lịch sử"
+        android:gravity="center"
+        android:background="#000"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        />
+</LinearLayout>
