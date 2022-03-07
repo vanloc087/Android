@@ -62,6 +62,6 @@ public class NhanVien {
     }
     @Override
     public String toString() {
-        return "NhanVien" + maso + ","+hoten +"," + gioitinh +","+ donvi +","+hinhAnh;
+        return "NhanVien" + maso + ","+hoten +"," + gioitinh +","+ donvi ;
     }
 }
