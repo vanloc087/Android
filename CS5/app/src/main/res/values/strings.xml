@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CS5</string>
+    <string-array name="traicay">
+        <item>Mít</item>
+        <item>Xoài</item>
+        <item>Ổi</item>
+        <item>Mít</item>
+        <item>Mít</item>
+        <item>Mít</item>
+    </string-array>
+</resources>
